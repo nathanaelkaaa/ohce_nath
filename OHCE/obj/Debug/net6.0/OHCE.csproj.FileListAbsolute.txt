@@ -10,3 +10,15 @@ C:\Users\natha\Desktop\Test Unitaire\ohce_b3_nantes_2022\OHCE\obj\Debug\net6.0\O
 C:\Users\natha\Desktop\Test Unitaire\ohce_b3_nantes_2022\OHCE\obj\Debug\net6.0\OHCE.dll
 C:\Users\natha\Desktop\Test Unitaire\ohce_b3_nantes_2022\OHCE\obj\Debug\net6.0\ref\OHCE.dll
 C:\Users\natha\Desktop\Test Unitaire\ohce_b3_nantes_2022\OHCE\obj\Debug\net6.0\OHCE.pdb
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.csproj.AssemblyReference.cache
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.AssemblyInfoInputs.cache
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.AssemblyInfo.cs
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.csproj.CoreCompileInputs.cache
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.dll
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\ref\OHCE.dll
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\obj\Debug\net6.0\OHCE.pdb
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\bin\Debug\net6.0\OHCE.deps.json
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\bin\Debug\net6.0\OHCE.dll
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\bin\Debug\net6.0\ref\OHCE.dll
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE\bin\Debug\net6.0\OHCE.pdb
