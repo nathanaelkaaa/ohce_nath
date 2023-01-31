@@ -12,7 +12,12 @@ namespace OHCE.Test.xUnit.Builder
         public static Ohce Default => new OhceBuilder().Build(Langue.Français,Period.Defaut);
 
         public Ohce Build(Langue langue, Period périodeJournée) => new Ohce(langue,périodeJournée);
+        public Ohce BuildAuto()
+        {
+            
+            return new Ohce();
+        }
 
- 
+
     }
 }

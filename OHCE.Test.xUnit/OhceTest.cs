@@ -64,4 +64,15 @@ public class OhceTest
         // ALORS <auRevoir> dans cette langue est envoyé
         Assert.EndsWith("Au revoir", sortie);
     }
+
+    [Fact(DisplayName =
+       "QUAND crée un objet ohce sans paramettre " +
+       "ALORS la langue recupéré se base sur celle de la machine")]
+    public void SysLangueTest()
+    {
+        var ohce = new OhceBuilder().BuildAuto();
+        Langue langue = ohce.GetSysLangue();
+
+        Assert.Equal(Langue.Français, langue);
+    }
 }

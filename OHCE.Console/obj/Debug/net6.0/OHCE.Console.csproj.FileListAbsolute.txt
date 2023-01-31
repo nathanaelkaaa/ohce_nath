@@ -28,3 +28,6 @@ C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\obj\Debug\net6.0\OHC
 C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\obj\Debug\net6.0\ref\OHCE.Console.dll
 C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\obj\Debug\net6.0\OHCE.Console.pdb
 C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\obj\Debug\net6.0\OHCE.Console.genruntimeconfig.cache
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\bin\Debug\net6.0\OHCE.dll
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\bin\Debug\net6.0\OHCE.pdb
+C:\Users\natha\Desktop\Test Unitaire\ohce_nath\OHCE.Console\obj\Debug\net6.0\OHCE.Console.csproj.CopyComplete

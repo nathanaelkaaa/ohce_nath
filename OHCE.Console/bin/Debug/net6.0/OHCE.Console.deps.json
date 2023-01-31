@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "OHCE.Console/1.0.0": {
+        "dependencies": {
+          "OHCE": "1.0.0"
+        },
         "runtime": {
           "OHCE.Console.dll": {}
+        }
+      },
+      "OHCE/1.0.0": {
+        "runtime": {
+          "OHCE.dll": {}
         }
       }
     }
   },
   "libraries": {
     "OHCE.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OHCE/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

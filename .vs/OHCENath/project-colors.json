@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6dbfafcb-f059-4821-b97e-d4e359d06465": {
+      "ProjectGuid": "6dbfafcb-f059-4821-b97e-d4e359d06465",
+      "DisplayName": "OHCE",
+      "ColorIndex": 0
+    },
+    "89f98e38-34d8-49cf-a403-54a53bb6449e": {
+      "ProjectGuid": "89f98e38-34d8-49cf-a403-54a53bb6449e",
+      "DisplayName": "OHCE.Console",
+      "ColorIndex": 1
+    },
+    "9d675716-2126-47bc-941b-6824fd58ab90": {
+      "ProjectGuid": "9d675716-2126-47bc-941b-6824fd58ab90",
+      "DisplayName": "OHCE.Test.xUnit",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
