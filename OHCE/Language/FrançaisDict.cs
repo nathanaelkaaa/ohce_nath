@@ -7,11 +7,11 @@ namespace OHCE.Language
     {
         public readonly Dictionary<string, string> dictionary = new Dictionary<string, string>
             {
-                {"biendit", "Bien dit !"},
+                {"biendit", "Bien dit"},
                 {"bonjour_am", "Bonjour"},
-                {"bonjour_pm", "Bonne aprèm"},
+                {"bonjour_pm", "Bonjour"},
                 {"bonjour_soir", "Bonsoir"},
-                {"bonjour_nuit", "Bonne nuit"},
+                {"bonjour_nuit", "Bonsoir"},
                 {"auRevoir_am", "Au revoir"},
                 {"auRevoir_pm", "Au revoir"},
                 {"auRevoir_soir", "Au revoir"},

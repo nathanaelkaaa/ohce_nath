@@ -17,7 +17,7 @@ public class Ohce
                 _dict = new FrançaisDict();
                 break;
             case Langue.Anglais:
-                _dict = new FrançaisDict();
+                _dict = new AnglaisDict();
                 break;
             default:
                 _dict = new FrançaisDict();
@@ -29,19 +29,19 @@ public class Ohce
     {
         
         var stringBuilder =
-            new StringBuilder(this.DireBonjour(_périodeJournée));
+            new StringBuilder(this.DireBonjour()+" ");
 
         var reversed = new string(
             input.Reverse().ToArray()
         );
 
-        stringBuilder.Append(reversed);
+        stringBuilder.Append(" "+reversed+" ");
 
 
-        if (reversed.Equals(input))
-            stringBuilder.Append(" "+this.DireBienDit());
+        if (reversed.Equals(input) && !reversed.Equals(""))
+            stringBuilder.Append(this.DireBienDit()+" ");
 
-        stringBuilder.Append(this.DireAuRevoir(_périodeJournée));
+        stringBuilder.Append(this.DireAuRevoir());
 
         return stringBuilder.ToString();
     }
@@ -49,12 +49,12 @@ public class Ohce
 
 
 
-    private string DireBonjour(Period périodeJournée)
+    public string DireBonjour()
     {
         string sentence;
 
 
-        switch (périodeJournée)
+        switch (_périodeJournée)
         {
             case Period.Matin:
                 sentence = _dict.GetDictionary("bonjour_am");
@@ -77,11 +77,11 @@ public class Ohce
     }
 
 
-    private string DireAuRevoir(Period périodeJournée)
+    public string DireAuRevoir()
     {
         string sentence;
 
-        switch (périodeJournée)
+        switch (_périodeJournée)
         {
             case Period.Matin:
                 sentence = _dict.GetDictionary("auRevoir_am");
@@ -103,7 +103,7 @@ public class Ohce
         return sentence;
     }
 
-    private string DireBienDit()
+    public string DireBienDit()
     {
  
         return _dict.GetDictionary("biendit"); ;
