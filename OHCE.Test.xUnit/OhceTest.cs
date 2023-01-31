@@ -32,7 +32,7 @@ public class OhceTest
         var sortie = ohce.Palindrome("kayak");
 
         // ALORS elle est renvoyée en miroir
-        Assert.Contains("kayak Bien dit !", sortie);
+        Assert.Contains("kayak Bien dit", sortie);
     }
 
     [Fact(DisplayName =
@@ -75,4 +75,33 @@ public class OhceTest
 
         Assert.Equal(Langue.Français, langue);
     }
+
+
+
+
+    [Fact(DisplayName =
+       "QUAND crée un objet ohce sans paramettre " +
+       "ALORS la langue recupéré se base sur celle de la machine")]
+    public void TestRecette1()
+    {
+        var ohce = new OhceBuilder().Build(Langue.Anglais, Period.Soir);
+        var sortie = ohce.Palindrome("kayak");
+
+        Assert.Equal("Hello kayak Well said Goodbye", sortie);
+    }
+
+    [Fact(DisplayName =
+       "QUAND crée un objet ohce sans paramettre " +
+       "ALORS la langue recupéré se base sur celle de la machine")]
+    public void TestRecette2()
+    {
+        var ohce = new OhceBuilder().Build(Langue.Français, Period.Matin);
+        var sortie = ohce.Palindrome("toto");
+
+        Assert.Equal("Bonjour otot Au revoir", sortie);
+    }
+
+    //Le test de recette 3 se situe dans OHCE.Console Program.cs car on utilise la console
+
+
 }

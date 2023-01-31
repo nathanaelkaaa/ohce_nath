@@ -3,7 +3,7 @@
 namespace OHCE.Program;
 public class Program
 {
-        //Test manuelle par rapport au information système
+        //Test de recette numéro 3
         static void Main(string[] args)
         {
             var ohce = new Ohce();

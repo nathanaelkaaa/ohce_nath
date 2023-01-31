@@ -53,7 +53,7 @@ public class Ohce
     {
         
         var stringBuilder =
-            new StringBuilder(this.DireBonjour()+" ");
+            new StringBuilder(this.DireBonjour());
 
         var reversed = new string(
             input.Reverse().ToArray()
